@@ -47,18 +47,25 @@ a {
 }
 
 /* Header */
+.sticky-header {
+  position: sticky;
+  background: #e6f0ff;
+  padding-top: 26px;
+}
 .header {
   /*cmt Thoai: 100% viewport height */
   position: relative;
   height: 100vh;
   background-color: #e6f0ff;
 }
+
 .navbar {
   display: flex;
   align-items: center;
   /* margin-top: 38px; margin collase */
   /* cmt Thoai: To prevent margin collapse */
-  padding-top: 38px;
+  /* padding-top: 38px; */
+  padding: 12px 0;
 }
 .navbar ul {
   display: flex;
