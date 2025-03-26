@@ -530,6 +530,7 @@ a {
   height: 28.47px;
   width: 28.47px;
   border-radius: 3px;
+  background: #f9f9f9;
 }
 .footer .social-link:hover {
   background: #ebebeb;
