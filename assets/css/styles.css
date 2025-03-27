@@ -14,7 +14,10 @@ body {
   /*cmt Thoai: embed local */
   font-family: Poppins, sans-serif;
 }
-
+html,
+body {
+  scroll-behavior: smooth;
+}
 /* Common  */
 a {
   text-decoration: none;
@@ -51,11 +54,12 @@ a {
   position: sticky;
   background: #e6f0ff;
   padding-top: 26px;
+  top: -26px;
+  z-index: 1;
 }
 .header {
-  /*cmt Thoai: 100% viewport height */
   position: relative;
-  height: 100vh;
+  height: calc(100vh - 90px);
   background-color: #e6f0ff;
 }
 
@@ -95,7 +99,7 @@ a {
 }
 /* ======Hero===== */
 .hero .info {
-  margin-top: 138px;
+  padding-top: 138px;
   width: 50.36%;
 }
 .hero .sub-title {
