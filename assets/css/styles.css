@@ -57,11 +57,6 @@ a {
   top: -26px;
   z-index: 1;
 }
-.header {
-  position: relative;
-  height: calc(100vh - 90px);
-  background-color: #e6f0ff;
-}
 
 .navbar {
   display: flex;
@@ -98,6 +93,14 @@ a {
   border-radius: 8px;
 }
 /* ======Hero===== */
+.hero {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: calc(100vh - 90px);
+  background-color: #e6f0ff;
+}
 .hero .info {
   padding-top: 138px;
   width: 50.36%;
